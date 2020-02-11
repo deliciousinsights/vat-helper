@@ -5089,6 +5089,19 @@ import-local@^2.0.0:
     pkg-dir "^3.0.0"
     resolve-cwd "^2.0.0"
 
+import-sort-style-delicious@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/import-sort-style-delicious/-/import-sort-style-delicious-1.0.2.tgz#096abf79d32b491b63dc73899443c2579e02fa38"
+  integrity sha512-4lqsNhYP275/6tedImWS2GY1aLabrTtJm4enoTK6c5cIq53KncZ+6KyN2p3g/3Y81+hjakkEBJNjQX4uVsjp3A==
+  dependencies:
+    import-sort-style "^5.0.0"
+    read-pkg-up "^4.0.0"
+
+import-sort-style@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/import-sort-style/-/import-sort-style-5.0.0.tgz#6547e3792b33994394dd86eeb6df6826838ad97b"
+  integrity sha1-ZUfjeSszmUOU3Ybutt9oJoOK2Xs=
+
 imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
