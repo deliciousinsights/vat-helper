@@ -11,6 +11,12 @@ export const VAT_RATES = [
   { rate: 0, name: 'Franchise en base' },
 ]
 
+export const RATE_GROUPS = [
+  { name: 'Taux usuels français', rates: [20_00, 10_00, 5_50] },
+  { name: 'Tous les taux', rates: VAT_RATES.map(({ rate }) => rate) },
+]
+RATE_GROUPS.default = RATE_GROUPS[0].name
+
 export function formatValue(centiles) {
   const cents = centiles % 100
   return cents > 0
